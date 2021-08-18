@@ -1,5 +1,9 @@
 body {
-    background-color:#f4f3ee;
+    background-color: #277da1;
+}
+
+h2 {
+  padding: 10px;
 }
 
 a, a:hover {
