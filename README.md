@@ -57,7 +57,8 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 MIT License
 
-Copyright (c) 2021 
+Copyright (c) 2021
+ 
 Alejandra Goldberg-Dominguez | DeAunt'e Hall | Mary Marks | Carlos Urquiza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
