@@ -15,6 +15,17 @@ a, a:hover {
   text-align: left;
 }
 
+/* API styling 
+-------------------------------------------------- */
+
+.center {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
