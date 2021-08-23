@@ -24,7 +24,8 @@ $(document).ready(function() {
     function getElements(response) {
       $('.showNews').text(`${response.Message}. Check your console!`);
       console.log(response);
-      /* or use
+
+      /* or use the following for additional specificity/JSON parsing
       console.log(response.Data[0].url);
       */
     }
