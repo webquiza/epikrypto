@@ -11,39 +11,37 @@
     <section class="jumbotron text-center">
       <div class="container">
         <img src="assets/images/epikrypto_c.png" alt="epikrypto logo">
-        <p class="lead text-muted">Here is an ctual sentence, too! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget consequat libero. Curabitur vitae lacinia nulla. Sed cursus neque sit amet iaculis molestie.</p>
-        <p>
-          
-          <a href="#" class="btn btn-primary my-2">Call to action</a>
-          
-        </p>
-      </div>   
-    </section>  
+        <h2>Your Cryptocurrency Home</h2>
+      </div>
+    </section>
+
     <div class="album py-5 bg-light">
       <div class="container">
+
+        <!--Cryptohopper Widget-->
         <div class="cryptohopper-web-widget" data-id="2"></div>
+
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="assets/images/example_a.jpg" alt="example image a">
+              <img class="card-img-top" src="assets/images/example1.jpg" alt="example image 1">
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget consequat libero. Curabitur vitae lacinia nulla. Sed cursus neque sit amet iaculis molestie.</p>
+                <p class="card-text">Want to learn more about crypto currencies? You've come to the right place. Click the link below to get started.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-primary"><a href="https://www.coinbase.com/learn/crypto-basics" target="_blank">Learn More</a></button>
                   </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="assets/images/example_a.jpg" alt="example image a">
+              <img class="card-img-top" src="assets/images/example2.jpg" alt="example image 2">
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget consequat libero. Curabitur vitae lacinia nulla. Sed cursus neque sit amet iaculis molestie.</p>
+                <p class="card-text">Who is Satoshi Nakamoto and what do they have to do with Bitcoin technology? Let's find out below.</p>
                 <div class="d-flex justify-content-between align-items-center">
+
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
@@ -53,44 +51,71 @@
                   
                 </div>
                   <small class="text-muted">9 mins</small>
+
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-primary"><a href="https://www.coindesk.com/learn/bitcoin-101/who-is-satoshi-nakamoto" target="_blank">Satoshi Nakamoto</a></button>
+                  </div>
+
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="assets/images/example_a.jpg" alt="example image a">
+              <img class="card-img-top" src="assets/images/example3.jpg" alt="example image 3">
               <div class="card-body">
+
                 <p class="card-text"> Developing nations moving towards bitcoin. If you would like to learn more about the impact bitcoin could potentially have on developing nations click the link below.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.forbes.com/sites/lawrencewintermeyer/2021/08/05/could-developing-nations-follow-el-salvadors-move-to-bitcoin/?sh=60cde37828b7" target="_blank">Learn More</a</a></button>
+
                   </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+    </div>
+
+    <!--YouTube video-->
+
+    <div class="container">
+      <hr>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rnMPy4LTsxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="container">
+      <hr>
+      <div class="form-group">
+        <label for="language"><span>Get More Cryptocurrency News</span></label>
+        <select class="form-control" id="language">
+          <option selected="selected">Select a language</option>
+          <option value="EN">English</option>
+          <option value="PT">Portuguese</option>
+        </select>
+        </br>
+        <button class="btn btn-primary" id="compare">Get News</button>
+      </div>
+
+      <hr>
+
+      <div class="showNews"></div>
+
+    </div>
 
   </main>
 
   <footer class="footer">
     <div class="container">
       <div class="container">
-        <span class="text-muted">This is a Sticky footer</span>
+        <span class="text-muted">EpiKrypto | 2021</span>
       </div>
   </footer>
 
-  <!--<footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-        <a href="#">Back to top</a>
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p>Lorem ipsum dolor sit amet<a href="#!">Sed cursus neque sit amet iaculis molestie.</a> or read our <a href="#!">Sed cursus neque sit amet iaculis molestie</a>.</p>
-    </div>
-  </footer>-->
+  <!--Cryptohopper Widget Script-->
   <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+
 </body>
 </html>
