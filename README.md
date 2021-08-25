@@ -1,6 +1,6 @@
 # _Epikrypto_
 
-#### _{Brief description of application}._
+#### _Information page about different cryptocurrencies._
 
 #### Team Members
 
@@ -20,11 +20,17 @@
 * _GitHub Pages_
 * _webpack_
 * _CryptoCompare API_
+* _YouTube iFrame_
 
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Information page about different cryptocurrencies, its history and the future of cryptocurrency in developing nations. This page provides the following information:_
+
+* _Live up-to-date cryptocurrency pricing_
+* _Relevant news articles_
+* _Use of the [CryptoCompare API](https://min-api.cryptocompare.com/documentation)_
+* _Informational video about cryptocurrency mining_
 
 ## Setup/Installation Requirements
 
@@ -46,7 +52,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 * _Store your API key as `API_KEY={API key goes here}` within your `.env` file._
 * _Run `$ npm run build` to open project via a development server._
 * _View project using development server by running `$ npm run start`._
-* _Alternatively, you can view the live webpage via this [GitHub Page]()._
+* _Alternatively, you can view the live webpage via this [GitHub Page](). You will still require an API key to use._
 
 ## Known Bugs
 
@@ -81,4 +87,4 @@ SOFTWARE.
 
 ## Contact Information
 
-_Feel free to contact {What should we add here?} with any questions regarding this webpage._
+_Feel free to contact alexdominguezwebdev@gmail.com, godsofolympus88@gmail.com, maryleemarks@gmail.com or webquiza@gmail.com with any questions regarding this webpage._
