@@ -56,8 +56,7 @@ _Information page about different cryptocurrencies, its history and the future o
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Our current API implementation only returns a success message to the DOM, but current state doesn't populate any other results. The user will have to check their console for results._
 
 ## License
 
