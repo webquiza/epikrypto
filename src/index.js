@@ -3,6 +3,11 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
+//preload
+window.addEventListener('load', function() {
+  document.querySelector('body').classList.add("loaded");
+});
+
 $(document).ready(function() {
   $('#compare').click(function() {
     const lang = $('#language').val();
