@@ -52,7 +52,7 @@ _Information page about different cryptocurrencies, its history and the future o
 * _Store your API key as `API_KEY={API key goes here}` within your `.env` file._
 * _Run `$ npm run build` to open project via a development server._
 * _View project using development server by running `$ npm run start`._
-* _Alternatively, you can view the live webpage via this [GitHub Page](). You will still require an API key to use._
+* _Alternatively, you can view the live webpage via this [GitHub Page](https://webquiza.github.io/epikrypto/). You will still require an API key to use._
 
 ## Known Bugs
 
